@@ -17,9 +17,16 @@
     }
     div {
       width: 300px;
+      background-color: #666;
     }
   </style>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+
+<body>
+  <div id="webcam"></div>
+  <!-- Project -->
+  <script src="main.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script type="text/javascript" src="./js/WebCam.js"></script>
   <script type="text/javascript">
     $(function() {
@@ -48,14 +55,6 @@
       });
     });
   </script>
-</head>
-
-<body>
-  <video id="webcam" autoplay="true">
-  </video>
-  <div id="webcam"></div>
-  <!-- Project -->
-  <script src="main.js"></script>
 </body>
 
 </html>
